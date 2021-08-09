@@ -1,8 +1,8 @@
 
 class AnalyticsEvent {
   final String eventName;
-  final Map<String, dynamic> meta;
+  final Map<String, dynamic>? meta;
 
-  AnalyticsEvent({this.eventName, this.meta});
+  AnalyticsEvent({required this.eventName, this.meta});
 
 }
